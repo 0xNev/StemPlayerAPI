@@ -78,11 +78,13 @@ def stems():
         
 if __name__ == '__main__':
      bass,drums,other,vocals = stems()
+     print('\n')
 
      print(f'bass: {bass}')
      print(f'drums: {drums}')
      print(f'other: {other}')
      print(f'vocals: {vocals}')
+     print('\n')
      print('Opperation completed!')
 
 input('Press enter to exit')
